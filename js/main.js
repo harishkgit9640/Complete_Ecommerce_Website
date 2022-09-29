@@ -1,3 +1,3 @@
 $(document).ready(function () {
-    $('body').text = ('hello world');
+    // $('#box').text('hello world');
 });
