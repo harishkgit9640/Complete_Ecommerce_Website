@@ -565,26 +565,89 @@ body {
 }
 
 #pagination {
-    color: #222;
+    text-align: center;
+}
+
+#pagination a {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 4px;
+    background: #088178;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i {
+    font-size: 16px;
+}
+
+/* Product Page Styling */
+
+#pro_details {
+    display: flex;
+    margin-top: 20px;
+}
+
+#pro_details .single_pro_img {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small_img_group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small_img_col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#pro_details .single_pro_details {
+    width: 50%;
+    padding-top: 20px;
+}
+
+#pro_details .single_pro_details h4 {
+    padding: 40px 0 20px 0;
+}
+
+#pro_details .single_pro_details h2 {
+    font-size: 26px;
+}
+
+#pro_details .single_pro_details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#pro_details .single_pro_details input:focus {
+    outline: none;
+}
+
+#pro_details .single_pro_details input {
+    width: 50px;
+    height: 47px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#pro_details .single_pro_details button {
+    background-color: #088178;
+    color: #fff;
+}
+
+#pro_details .single_pro_details p {
+    line-height: 30px;
+    text-align: justify;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* Blog Page Styling */
-
-
-/* Product Page Styling */
 
 
 /* Contact Page Styling */
