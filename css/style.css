@@ -546,9 +546,62 @@ body {
     text-align: center;
 }
 
+/* Shop Page Styling */
+#page_header {
+    background-image: url('/img/banner/b1.jpg');
+    width: 100%;
+    height: 40vh;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#page_header h2,
+#page_header p {
+    color: #fff;
+}
+
+#pagination {
+    color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Blog Page Styling */
+
+
+/* Product Page Styling */
+
+
+/* Contact Page Styling */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media Query for make Responsive our Home page */
-
 @media (max-width:799px) {
     .section-p1 {
         padding: 40px;
