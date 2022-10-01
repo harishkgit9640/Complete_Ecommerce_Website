@@ -14,3 +14,15 @@ if (close) {
         navbar.classList.remove('active');
     })
 }
+
+// Product page
+
+let productPage = () => {
+    window.location.href = '../product.html';
+}
+document.getElementById('proItem').addEventListener("click", productPage);
+
+// product.addEventListener('click', () => {
+//     console.log('clicked');
+//     window.location.href = '../product.html';
+// });

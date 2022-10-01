@@ -87,7 +87,7 @@
         <p>Summer Collection New Modern Design</p>
         <div class="pro_container">
 
-            <div class="pro">
+            <div class="pro" onclick="window.location.href = 'product.html'">
                 <img src="/img/products/f1.jpg" alt="products">
                 <div class="des">
                     <span>adidas</span>
@@ -103,7 +103,7 @@
                 </div>
                 <a href="#"><i class="fas fa-shopping-cart add_cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" onclick="productPage()">
                 <img src="/img/products/f2.jpg" alt="products">
                 <div class="des">
                     <span>adidas</span>
@@ -468,8 +468,13 @@
         </div>
     </section>
 
+    <script>
+        function productPage() {
+            window.location.href = 'product.html';
+        }
+    </script>
     <!-- main js file -->
-    <script src="./js/main.js"></script>
+    <!-- <script src="./js/main.js"></script> -->
 </body>
 
 </html>

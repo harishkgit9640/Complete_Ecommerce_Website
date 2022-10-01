@@ -829,4 +829,21 @@ body {
     #newsletter .form {
         width: 100%;
     }
+
+
+    /*  Product Page Responsive */
+    #pro_details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pro_details .single_pro_img {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #pro_details .single_pro_details {
+        width: 100%;
+    }
+
 }
