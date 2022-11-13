@@ -86,6 +86,11 @@ body {
     z-index: 99;
 }
 
+.logo {
+    width: auto;
+    height: 80px;
+}
+
 #navbar {
     display: flex;
     align-items: center;
@@ -351,7 +356,7 @@ body {
     background-image: url('/img/banner/b17.jpg');
     background-size: cover;
     background-position: center;
-    min-width: 650px;
+    min-width: 600px;
     height: 50vh;
     padding: 30px;
 }
